@@ -41,7 +41,7 @@ Further Reading: Conventional Commits - https://www.conventionalcommits.org/en/v
 
 - git branch - shows all branches and current branch
 - git checkout branch-name - switches to an already existing branch
-- git checkout -b branch-name - switches to a new branch
+- git checkout -b branch-name - creates a new branch and switches to that branch
 - git merge branch-name - merges the specified branch name into your current branch
 - git rebase branch name - rebases the specified branch into your current branch
 
@@ -53,6 +53,8 @@ Further Reading: Conventional Commits - https://www.conventionalcommits.org/en/v
 Generally:
 - Rebase the main/master branch into feature branches if updates have been made
 - Merge and squash the feature branch into the main/master branch when the PR has been approved
+
+Further reading: https://souzajohnlee.medium.com/git-and-branched-development-52951ad49a32
 
 # User Stories
 
@@ -85,4 +87,3 @@ Bad:
 - Developers plan out how they will approach that story
 - Developers use the branching workflow noted above for each story.
 - Development team deploys the code at the end of the sprint
-
