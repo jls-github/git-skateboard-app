@@ -6,6 +6,7 @@ export default function SkateboardShowPage() {
             <h1>Skateboard 1</h1>
             <p>This skateboard rocks!!!</p>
             <div>Beautiful Skateboard photo here!</div>
+            <div>Price of skateboard here</div>
         </div>
     )
 }
